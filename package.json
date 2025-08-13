@@ -1,0 +1,42 @@
+{
+  "name": "@runtimed/anaconda",
+  "version": "0.1.0",
+  "description": "Anaconda integrations for the Runt Web",
+  "homepage": "https://github.com/runtimed/anaconda_extension#readme",
+  "bugs": {
+    "url": "https://github.com/runtimed/anaconda_extension/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runtimed/anaconda_extension.git"
+  },
+  "author": "Anil Kulkarni",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "build": "npx tsc"
+  },
+  "dependencies": {
+    "@runtimed/extensions": "^0.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
+  }
+}
