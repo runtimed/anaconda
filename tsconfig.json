@@ -11,6 +11,7 @@
     "declarationMap": true,
     "declaration": true,
     "lib": ["es2024"],
+    "types": ["@cloudflare/workers-types"],
     "strict": true,
     "skipLibCheck": true,
     "isolatedModules": true,
