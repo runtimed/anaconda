@@ -33,10 +33,14 @@
     "build": "npx tsc"
   },
   "dependencies": {
-    "@runtimed/extensions": "^0.2.0"
+    "@runtimed/extensions": "^0.3.0",
+    "jose": "^6.0.12"
   },
   "devDependencies": {
     "prettier": "^3.6.2",
     "typescript": "^5.9.2"
+  },
+  "peerDependencies": {
+    "@cloudflare/workers-types": "^4.20250813.0"
   }
 }
