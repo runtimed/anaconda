@@ -2,13 +2,13 @@
   "name": "@runtimed/anaconda",
   "version": "0.1.0",
   "description": "Anaconda integrations for the Runt Web",
-  "homepage": "https://github.com/runtimed/anaconda_extension#readme",
+  "homepage": "https://github.com/runtimed/anaconda#readme",
   "bugs": {
-    "url": "https://github.com/runtimed/anaconda_extension/issues"
+    "url": "https://github.com/runtimed/anaconda/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/runtimed/anaconda_extension.git"
+    "url": "git+https://github.com/runtimed/anaconda.git"
   },
   "author": "Anil Kulkarni",
   "type": "module",
